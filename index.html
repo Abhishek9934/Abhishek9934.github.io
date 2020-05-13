@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<title>My Personal Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+
+.w3-row-padding img {margin-bottom: 120px}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+.bgimg {
+  background-image: url('images/back2.jpg');
+  min-height: 100%;
+  
+  background-position: center;
+  background-size: cover;
+  
+}
+/* Full height image header */
+
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+</style>
+
+<body class="w3-black">
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#" class="w3-bar-item w3-button w3-wide w3-image">HOME</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+      <!-- <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a> -->
+      <a href="https://github.com/Abhishek9934" class="w3-bar-item w3-button"><i class="fa fa-github"></i> PROJECTS</a>
+
+
+      <a href="https://drive.google.com/open?id=1wqLpuZWGcsIomXzGEIH8Gm-tNVCFhuwm" class="w3-bar-item w3-button"><i class="fa fa-download"></i>RESUME</a>
+    
+
+      <a href="#certificates" class="w3-bar-item w3-button"><i class="fa fa-th"></i> CERTIFICATES</a>
+     
+
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white ">
+  
+  <div class="w3-display-middle">
+    
+    <h1  class="w3-justify w3-jumbo w3-text-white><span class="w3-hide-small">I'm</span> Abhishek Kumar Gupta.</h1>
+    <p > <h3 class="w3-center w3-text-white" >A Web Developer.<br> AI and ML Enthusiast.</h3></p>
+  </div>
+  
+</div>
+
+
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">  
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">About Me    </h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p class="w3-text-light-grey">
+      I am Abhishek Kumar Gupta ,UG Sophomore at Indian Institute of Technology Ropar, pursuing Bachelors of Technology (B-Tech) in Computer Science And Engineering. I am skilled in C, C++, python, data structures and algorithms. I underwent a Summer Internship @ IIT Ropar on App development using visual studio under Dr. Prabir Sarkar. Being a second-year undergraduate, I am keen about learning and having practical knowledge in my field of interest that includes the application of Image Processing and Computer Vision, applying the ideas of Machine Learning. I am working on projects based on image recognition and deep learning and swarm robotics on drones from the past six months. I have a sound background in Computer Science in Engineering and I can chip-in efficiently in your ongoing projects in the related field. 
+
+    </p>
+    <p class="w3-text-light-grey">I am open to Software Engineering, Data Science and Machine Learning opportunities. I am actively looking for internships.</p>
+    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+    <p class="w3-text-light-grey" class="w3-wide">Languages Known: C, C++, Python</p>
+    
+    <p class="w3-text-light-grey" class="w3-wide">Frameworks/Libraries/Tools/OS: Git, Pandas, Numpy, Keras(learning), OpenCV, Visual Studio, PyQt, Web Development</p>
+    
+    <br>
+    
+
+
+
+    <button class="w3-half w3-button w3-light-grey w3-padding-large w3-section"  onclick="myFunction()">
+      <i class="fa fa-download"  >
+</i> Download Resume
+    </button>
+
+
+   <script>
+function myFunction() {
+  window.open("https://drive.google.com/open?id=1wqLpuZWGcsIomXzGEIH8Gm-tNVCFhuwm");
+  // window.open("https://www.w3schools.com/");
+}
+
+function myfunc(){
+  window.open("https://github.com/Abhishek9934")
+}
+
+</script>
+
+
+<button onclick="myfunc()" class="w3-half w3-button w3-light-grey w3-padding-large w3-section w3-right">
+  <i class="fa fa-github"  >
+</i> View Projects
+    </button>
+
+
+
+
+  <div class="w3-padding-64 w3-content" id="certificates">
+    <h2 class="w3-text-light-grey">My Certificates</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="">
+         <iframe src="certificates/MachineLearning.pdf" height="400px" width="100%"  scrolling="auto"></iframe>
+         <iframe src="certificates/AWS_CERTIFICATE.pdf" height="400px" width="100%"  scrolling="auto"></iframe>
+         <iframe src="certificates/a.pdf" height="400px" width="100%"  scrolling="auto"></iframe>
+         <iframe src="certificates/b.pdf" height="400px" width="100%"  scrolling="auto"></iframe>
+         <iframe src="certificates/c.pdf" height="400px" width="100%"  scrolling="auto"></iframe>
+         <iframe src="certificates/d.pdf" height="400px" width="100%"  scrolling="auto"></iframe>
+         <iframe src="certificates/e.pdf" height="400px" width="100%"  scrolling="auto"></iframe>
+
+
+
+
+
+      </div>
+
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p class="w3-text-light-grey"><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Indian Institute Of Technology Ropar,Punjab</p>
+      <p class="w3-text-light-grey"><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: (+91) 6204788657</p>
+      <p class="w3-text-light-grey"><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: 2018csb1201@iitrpr.ac.in</p>
+    </div>
+
+ <footer class="w3-center w3-black w3-padding-40">
+  
+  <div class="w3-xlarge w3-section w3-light-grey" >
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-github w3-hover-opacity"></i>
+     <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+ </footer>
+
+</div>
+
+</body>
+</html>
