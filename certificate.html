@@ -16,17 +16,6 @@ body, html {
   height: 100%;
   line-height: 1.8;
 }
-.bgimg {
-  background-image: url('images/back2.jpg');
-  min-height: 100%;
-  
-  background-position: center;
-  background-size: cover;
-  
-}
-/* Full height image header */
-
-
 .w3-bar .w3-button {
   padding: 16px;
 }
@@ -48,52 +37,56 @@ body, html {
     <!-- Hide right-floated links on small screens and replace them with a menu icon -->
 
 
-    <nav class="w3-dropdown-hover w3-bar-item w3-right w3-hide-large ">
-      <i class="fa fa-bars"></i>
-      <div class="w3-dropdown-content w3-bar-block w3-card-4" style="right:0">
-      <a href="about.html" class="w3-bar-item w3-button">ABOUT</a>
+  <nav class="w3-dropdown-hover w3-bar-item w3-right w3-hide-large ">
+    <i class="fa fa-bars"></i>
+    <div class="w3-dropdown-content w3-bar-block w3-card-4" style="right:0">
+            <a href="about.html" class="w3-bar-item w3-button">ABOUT</a>
       <a href="https://github.com/Abhishek9934" class="w3-bar-item w3-button"><i class="fa fa-github"></i> PROJECTS</a>
       <a href="https://drive.google.com/open?id=10T_-eoXdA1MQDXoMoJHBGb_K6HbV-uoY" class="w3-bar-item w3-button"><i class="fa fa-download"></i>RESUME</a>
       <a href="certificate.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> CERTIFICATES</a>     
       <a href="contact.html" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
-      </div>
-    </nav>
+    </div>
+  </nav>
   </div>
 </div>
+<div class=" w3-padding-large" id="main">  
 
-<header class="bgimg w3-display-container  w3-text-white ">
-  
-  <div class="w3-display-middle">
-    <h2 class="w3-center w3-text-white" ><span class="w3-hide-small w3-hide-medium">Welcome to my website &#128522; </span></h2>
-    <h1  class="w3-center w3-jumbo w3-text-white><span class="w3-hide-small">I'm</span> Abhishek Kumar Gupta.</h1>
-    <p > <h3 class="w3-center w3-text-white" >A Web Developer.<br> AI and ML Enthusiast.</h3></p>
 
-  </div>
-  <div class=" w3-text-white w3-xlarge w3-display-bottomright" style="padding:24px 48px">
+	<div class="w3-padding-64 w3-content" id="certificates">
+	    <h2 class="w3-text-light-grey">My Certificates</h2>
+	    <hr style="width:200px" class="w3-opacity">
+        <br>
+        <p class="w3-text-white">
+        	My achievements and certificates can be seen below.
+        </p>
+	    <!-- Grid for photos -->
+	    <div class="w3-row-padding" style="margin:0 -16px">
+	      <div class="">
+	         <iframe src="certificates/MachineLearning.pdf" height="600px" width="100%"  scrolling="auto"></iframe>
+	         <iframe src="certificates/AWS_CERTIFICATE.pdf" height="600px" width="100%"  scrolling="auto"></iframe>
+	         <iframe src="certificates/a.pdf" height="600px" width="100%"  scrolling="auto"></iframe>
+	         <iframe src="certificates/b.pdf" height="600px" width="100%"  scrolling="auto"></iframe>
+	         <iframe src="certificates/c.pdf" height="600px" width="100%"  scrolling="auto"></iframe>
+	         <iframe src="certificates/d.pdf" height="600px" width="100%"  scrolling="auto"></iframe>
+	         <iframe src="certificates/e.pdf" height="600px" width="100%"  scrolling="auto"></iframe>
+	      </div>
+	    </div>
+	 
+	  </div>
+
+    
+<footer class="w3-center w3-black w3-padding-32">
+  <a href="#certificates" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section w3-light-black" >
     <i onclick="myfunc2()" class="fa fa-facebook-official w3-hover-opacity"></i>
     <i class="fa fa-instagram w3-hover-opacity"></i>
     <i onclick="myfunc()" class="fa fa-github w3-hover-opacity"></i>
-    <i onclick="myfunc1()" class="fa fa-linkedin w3-hover-opacity"></i>
+     <i onclick="myfunc1()" class="fa fa-linkedin w3-hover-opacity"></i>
   </div>
-  
-</header>
+ </footer>
+ 
+</div>
 
-<script>
-function myFunction() {
-  window.open("https://drive.google.com/open?id=10T_-eoXdA1MQDXoMoJHBGb_K6HbV-uoY");
-// window.open("https://www.w3schools.com/");
-}
 
-function myfunc(){
-  window.open("https://github.com/Abhishek9934");
-}
-
-function myfunc1(){      
-  window.open("https://www.linkedin.com/in/abhishek-kumar-gupta-9b7381176/");
- }
-function myfunc2(){window.open("https://www.facebook.com/profile.php?id=100027671231312");
- }
-                                                       
-</script>
 </body>
 </html>
