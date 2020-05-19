@@ -1,3 +1,8 @@
+
+<!DOCTYPE html>
+<html>
+
+
 <?php 
 
 $name = $_POST['Name'];
@@ -6,12 +11,14 @@ $subject = $_POST['Subject'];
 
 $message = $_POST['Message'];
 $recipient= "abhiigupta9934@gmail.com";
-$content=  "From : $name \n Message: $message";
+$content=  "From : "+$name+ "\n Message:" +$message;
 
-$mailheader = "From: $email \r\n";
+$mailheader = "From:"+ $email +"\r\n";
 
 mail($recipient,$subject,$content , $mailheader) or die("Error");
 echo "Thank You.\n Your message has been sent.";
 
 
  ?>
+
+ </html>
