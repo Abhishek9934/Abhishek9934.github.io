@@ -65,11 +65,11 @@ body, html {
           <p class="w3-text-light-grey"><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: 2018csb1201@iitrpr.ac.in</p>
 
               <br>
-    <form action="/action_page.php" target="_blank">
+    <form action="action.php" method = "POST" target="_blank">
       <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
       <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
       <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
-      <p><input class=" w3-input w3-border"  type="text" placeholder="Message" required name="Message"></p>
+      <p><textarea class=" w3-input w3-border "   type="text" placeholder="Message" required name="Message" style="height: 200px"></textarea></p>
       <p>
         <button class="w3-button w3-white" type="submit">
           <i class="fa fa-paper-plane"></i> SEND MESSAGE
